@@ -25,8 +25,7 @@ const app = createApp({
                 .then(() => {
                     this.getProducts();
                 })
-                .catch(err => {
-                    console.log(err);
+                .catch(() => {
                     window.location = './login.html';
                 })
         },
