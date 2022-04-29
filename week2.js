@@ -27,6 +27,7 @@ const app = createApp({
                 })
                 .catch(err => {
                     console.log(err);
+                    window.location = './login.html';
                 })
         },
         getProducts() {
